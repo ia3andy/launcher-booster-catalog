@@ -1,0 +1,16 @@
+source:
+  git:
+    url: https://github.com/ia3andy/spring-boot-metric-booster
+    ref: master
+metadata:
+  version:
+    name: 1.5.8.RELEASE (Community)
+environment:
+  staging:
+    source:
+      git:
+        ref: v15
+  production:
+    source:
+      git:
+        ref: v15
